@@ -1,1 +1,1 @@
-# Web-Animation-API
+# Web Animation API
