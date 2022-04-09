@@ -1,6 +1,17 @@
 * {
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
     background-color: rgb(235, 239, 242);
+}
+
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: darkcyan;
+}
+
+#box2 {
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
 }
