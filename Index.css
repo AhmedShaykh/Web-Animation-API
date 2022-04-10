@@ -1,7 +1,6 @@
 * {
-    padding: 0;
     box-sizing: border-box;
-    background-color: rgb(235, 239, 242);
+    background-color: whitesmoke;
 }
 
 #box {
@@ -19,5 +18,13 @@
 #box3 {
     height: 100px;
     width: 100px;
-    background-color: darkslategrey;
+    background-color: red;
+}
+
+#box4 {
+    padding: auto !important;
+    margin: auto !important;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(27, 26, 26);
 }
