@@ -22,9 +22,13 @@
 }
 
 #box4 {
+    background-color: black !important;
     padding: auto !important;
     margin: auto !important;
-    height: 400px;
-    width: 400px;
-    background-color: rgb(27, 26, 26);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
 }

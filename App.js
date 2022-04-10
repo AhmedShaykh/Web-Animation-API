@@ -36,9 +36,9 @@ elem.animate([
 var elem = document.querySelector('#box4');
 
 elem.animate([
-    { transform: 'scale(0.5)', backgroundColor: 'whitesmoke' },
-    { transform: 'scale(1)', backgroundColor: 'black' },
-    { transform: 'scale(0.5)', backgroundColor: 'whitesmoke' }
+    { transform: 'scale(0.5)', backgroundColor: 'whitesmoke' , color: 'black'},
+    { transform: 'scale(1)', backgroundColor: 'black' , color: 'grey'},
+    { transform: 'scale(0.5)', backgroundColor: 'whitesmoke' , color: 'black'}
 ], {
     duration: 1500,
     iterations: Infinity
