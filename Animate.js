@@ -1,12 +1,20 @@
 var elem = document.querySelector('#Cloud');
 
-elem.animate([
+var animatedElem = elem.animate([
     { transform: 'translate(0 , 20px)' },
-    { transform: 'translate(400px ,80px)' },
-    { transform: 'translate(1200px ,20px)' },
-    { transform: 'translate(400px ,80px)' },
+    { transform: 'translate(550px ,80px)' },
+    { transform: 'translate(1000px ,20px)' },
+    { transform: 'translate(550px ,80px)' },
     { transform: 'translate(0 , 20px)' }
 ], {
     duration: 4000,
     iterations: Infinity
+})
+
+document.addEventListener("mousedown", () => {
+    animatedElem.pause();
+})
+
+document.addEventListener("mouseup", () => {
+    animatedElem.play();
 })
