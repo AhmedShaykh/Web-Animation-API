@@ -23,7 +23,7 @@ var elem = document.getElementById('plane');
 
 var animatedeeElem = elem.animate([
     { transform: 'translate(0 , 0)' },
-    { transform: 'translate(900px , 0)' },
+    { transform: 'translate(900px , 0)' }
 ], {
     duration: 3000,
     iterations: Infinity
