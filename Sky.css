@@ -1,15 +1,10 @@
 * {
     padding: 0%;
     margin: 0%;
-    background-color: rgb(173, 228, 237);
+    background-color: rgb(202, 236, 241);
 }
 
-.clouds {
+#clouds {
     display: flex;
     justify-content: space-around;
-}
-
-.plane {
-    position: absolute;
-    left: 900px;
 }
