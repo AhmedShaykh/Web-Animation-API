@@ -2,7 +2,7 @@ var elem = document.getElementById('clouds');
 
 var animatedeeElem = elem.animate([
     { transform: 'translate(800px , 0)' },
-    { transform: 'translate(50px , 0)' },
+    { transform: 'translate(30px , 0)' },
 ], {
     duration: 10000,
     iterations: Infinity
